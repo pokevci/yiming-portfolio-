@@ -1,0 +1,15 @@
+/* Your existing CSS styles */
+
+.subpage-content {
+    padding: 50px;
+}
+
+.subpage-content h2 {
+    font-size: 32px;
+    color: #081b29;
+}
+
+.subpage-content p {
+    font-size: 16px;
+    color: #081b29;
+}
