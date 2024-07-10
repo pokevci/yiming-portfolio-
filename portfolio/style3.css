@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  background: #161a2d;
+  padding: 25px 20px;
+  transition: all 0.4s ease;
+  float: right;
+}
+
+.sidebar:hover {
+  width: 260px;
+}
+
+.sidebar .sidebar-header {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .sidebar-header img {
+  width: 42px;
+  border-radius: 50%;
+}
+
+.sidebar .sidebar-header h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-left: 45px;
+}
+
+.sidebar-links {
+  list-style: none;
+  margin-top: 20px;
+  height: 80%;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.sidebar-links li a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 15px 10px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.sidebar-links li a img {
+  margin-right: 10px;
+}
+
+.main-content {
+  margin-left: 85px; 
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.abtme {
+  margin-left: 100px;
+  font-size: 20px; 
+  text-align: center;
+  max-width: 500px; 
+  text-align: justify;
+  background-image: url(images/background.png);
+}
+
+.orathor{
+  width: 500px;
+  height: 500px;
+}
+
+.myself{
+  width: 300px;
+  height:300px;
+  margin-left: 50px;
+  display: block;
+}
+
+.tb2{
+  margin-left: 200px;
+}
+
+.orathor1{
+  width: 600px;
+  height: 450px;
+}
+
+.tr1{
+  margin-bottom: 650px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Arrange children in a column */
+  align-items: center; /* Center items horizontally */
+  margin-top: 20px;
+}
+
+/* Image styles */
+.myself {
+  max-width: 100%; /* Make sure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space between the image and the text */
+  width: 500px;
+  margin-left: 100px;
+}
+
+/* Text styles */
+.caption {
+  font-size: 16px;
+  color: #333; /* Text color */
+  text-align: center; /* Center the text */
+}
+
+main {
+margin-left: 100px; /* Adjust according to your sidebar width */
+padding: 1rem;
+flex-grow: 1;
+}
+
+/* Header styles */
+header {
+background-color: #00abf0;
+padding: 1rem;
+text-align: center;
+margin-top: 0px;
+margin-bottom: 2rem;
+}
+
+/* Accomplishment section styles */
+.accomplishment {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 2rem;
+background-color: #fff;
+padding: 1rem;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.accomplishment-text {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+margin-bottom: 1rem;
+}
+
+/* Text styles */
+.accomplishment-text {
+font-size: 1rem;
+text-align: center;
+margin: 0;
+}
+
+.orathor, .gbtb, .passionlj, .irun2024, .act{
+width:500px;
+height: auto;
+}
