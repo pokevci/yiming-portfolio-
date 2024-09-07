@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About Me</title>
+    <title>Projects</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <aside class="sidebar">
@@ -27,7 +26,7 @@
                 <div class="menu-separator"></div>
             </h4>
             <li>
-                <a href="aboutme.html"><img src="images/folder.png" alt="Projects">Acomplishments</a>
+                <a href="aboutme.html"><img src="images/folder.png" alt="Projects">School</a>
             </li>
             <li>
                 <a href="https://github.com/PokeTheUnknown"><img src="images/github.png" alt="Github">Github</a>
@@ -36,13 +35,34 @@
     </aside>
     <main>
         <header>
-            <h1>🖥️Computing projects I've done🖥️</h1>
+            <h1>🖥️ Major Projects I've Done 🖥️</h1>
         </header>
         <section class="accomplishment">
-            <h3>#</h3>
-            <img src="#" alt="#" class="#">
-            <p class="accomplishment-text">#</p>
+            <img src="images/duet.jpg" alt="duet png" class="duet">
+            <p class="accomplishment-text">
+                Duet is a sophisticated homework assistance chatbot built using Google's Gemini API. When users input their prompts, Duet forwards these queries to Gemini for processing. Gemini generates detailed and relevant responses, which are then sent back to Duet through a secure endpoint. This seamless interaction ensures that users receive accurate and helpful answers to their homework questions in a timely manner, enhancing their learning experience.
+                <a href="https://duetai.vercel.app/">Click here to try Duet</a>
+            </p>
+        </section>
+        <section class="accomplishment">
+            <img src="images/url.png" alt="url shortener png" class="urlshortener">
+            <p class="accomplishment-text">
+                URL shortener made using JavaScript by encoding the original URL which the user inputted into Base64 format using the <b>btoa</b> function. This generates a short URL with <b>const shortURL = `https://short.url/${hash}`;</b>. <a href="https://url-shortener-ori1.vercel.app">Try my URL shortener out!</a>
+                <br><a href="https://github.com/pokevci/URL-shortener">URL shortener repository</a>
+            </p>
+        </section>
+        <section class="accomplishment">
+            <img src="images/scrapper.png" alt="scrapper png" class="scrapper">
+            <p class="accomplishment-text">
+                Web scraper created using Python. It utilizes <b>BeautifulSoup</b> from <b>bs4</b> and performs an HTTP GET request to the specified address with <b>response = requests.get(url) <a href="https://github.com/pokevci/Python-Web-scrapper">Web-Scrapper Repository</a></b>.
+            </p>
+        </section>
+        <p class="other">
+                <a href="https://github.com/pokevci?tab=repositories">Please check out my other projects out here!</a>
+        </p>
+        <p class="tag">///////////////////////////////////////////////////////////</p>
         </section>
     </main>
+    <script src="script.js" defer></script>
 </body>
 </html>
