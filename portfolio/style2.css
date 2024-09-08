@@ -134,3 +134,142 @@ header {
   margin-left: 10px;
   font-size: 50px;
 }
+
+/* General styles for mobile devices */
+@media (max-width: 768px) {
+  /* Sidebar */
+  .sidebar {
+    width: 60px; /* Adjust width for smaller screens */
+    padding: 15px 10px;
+  }
+
+  .sidebar:hover {
+    width: 200px; /* Slightly smaller expanded width */
+  }
+
+  .sidebar .sidebar-header h2 {
+    font-size: 1rem;
+    margin-left: 30px;
+  }
+
+  .sidebar-links li a {
+    font-size: 0.875rem;
+    padding: 10px 5px;
+  }
+
+  /* Home Section */
+  .home-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .home-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .home-content p {
+    font-size: 0.875rem;
+    max-width: 100%; /* Full width text for mobile */
+  }
+
+  .face-image {
+    width: 100px;
+    height: auto;
+  }
+
+  /* Adjusting margin for accomplishment section */
+  .accomplishment {
+    flex-direction: column;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .accomplishment img,
+  .accomplishment video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem; /* Space between elements */
+  }
+
+  .accomplishment-text {
+    max-width: 100%;
+    font-size: 0.875rem;
+  }
+
+  /* Main content adjustments */
+  .main-content {
+    margin-left: 60px;
+    padding: 1rem;
+  }
+
+  .idk,
+  .other {
+    margin-left: 0;
+  }
+
+  .tag {
+    font-size: 2rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .sidebar {
+    width: 50px;
+  }
+
+  .sidebar:hover {
+    width: 150px;
+  }
+
+  .sidebar-links li a {
+    font-size: 0.75rem;
+    padding: 8px 5px;
+  }
+
+  .home-content h1 {
+    font-size: 1.25rem;
+  }
+
+  .home-content h3 {
+    font-size: 1rem;
+  }
+
+  .home-content p {
+    font-size: 0.75rem;
+  }
+
+  .face-image {
+    width: 80px;
+  }
+}
+
+.accomplishment1 {
+  margin-left: 150px;
+}
+
+.speech {
+  width: 900px;
+  height: auto;
+}
+
+.accomplishment2 {
+  margin-left: 200px;
+}
+
+.accomplishment3 {
+margin-left: 150px;
+}
+
+.story {
+  width: 900px;
+  height: auto;
+}
+
+.part {
+  width: 500px;
+  height: auto;
+}
+
+.accomplishment4 {
+  margin-left: 450px;
+}
