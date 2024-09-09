@@ -274,95 +274,30 @@ margin-left: 150px;
   margin-left: 450px;
 }
 
-/* General styles for mobile devices */
+/* Mobile styles for smaller sidebar */
 @media (max-width: 768px) {
   /* Sidebar */
   .sidebar {
-    position: relative;
-    width: 60px; /* Adjust width for smaller screens */
-    height: auto; /* Allow the sidebar to take up full height */
-    overflow: hidden;
-    padding: 15px 10px;
-    z-index: 10; /* Ensure the sidebar stays on top */
+    width: 50px; /* Smaller width for mobile */
+    padding: 10px 5px;
   }
 
   .sidebar:hover {
-    width: 200px; /* Slightly smaller expanded width */
+    width: 150px; /* Optional: Expand when hovered */
   }
 
   .sidebar .sidebar-header h2 {
     font-size: 1rem;
-    margin-left: 30px;
+    margin-left: 20px; /* Adjust text position */
   }
 
   .sidebar-links li a {
-    font-size: 0.875rem;
+    font-size: 0.75rem; /* Smaller font size */
     padding: 10px 5px;
   }
 
-  /* Ensure main content adjusts */
+  /* Adjust main content */
   .main-content {
-    margin-left: 60px;
-    padding: 1rem;
-    z-index: 1; /* Ensure the content stays under the sidebar */
-  }
-
-  .accomplishment {
-    flex-direction: column;
-    margin-left: 0;
-    padding: 1rem;
-  }
-
-  /* Adjust image and text size for mobile */
-  .accomplishment img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .accomplishment-text {
-    max-width: 100%;
-    font-size: 0.875rem;
-  }
-
-  .accomplishment h3 {
-    font-size: 1.25rem;
-  }
-
-  /* Adjust margins for other sections */
-  .accomplishment1,
-  .accomplishment2,
-  .accomplishment3,
-  .accomplishment4 {
-    margin-left: 0;
-  }
-
-  .idk,
-  .other {
-    margin-left: 0;
-  }
-}
-
-/* Extra small devices */
-@media (max-width: 480px) {
-  .sidebar {
-    width: 50px; /* Narrower sidebar for extra small screens */
-  }
-
-  .sidebar:hover {
-    width: 150px;
-  }
-
-  .sidebar-links li a {
-    font-size: 0.75rem;
-    padding: 8px 5px;
-  }
-
-  .accomplishment img {
-    width: 100%; /* Ensure images scale on small screens */
-    height: auto;
-  }
-
-  .main-content {
-    margin-left: 50px; /* Adjust main content for small screens */
+    margin-left: 50px; /* Ensure content moves left with sidebar */
   }
 }
