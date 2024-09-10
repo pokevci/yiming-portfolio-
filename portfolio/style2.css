@@ -394,3 +394,9 @@ margin-left: 150px;
     margin-left: 50px; /* Adjust main content for small screens */
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .mainmenutxt {
+    size: 100px;
+  }
+}

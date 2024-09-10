@@ -176,3 +176,24 @@ margin: 0;
 width:500px;
 height: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    background: #161a2d;
+    padding: 25px 20px;
+    transition: all 0.4s ease;
+    float: right;
+  }
+
+  .myself {
+    width: 40px;
+    height: auto;
+  }
+}
